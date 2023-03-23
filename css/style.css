@@ -1,0 +1,273 @@
+.page{
+    width: 1920px;
+    margin: 0px auto;
+    background-color: rgb(13, 2, 33);
+}
+.header{
+    background-color: rgb(101, 13 , 137);
+}
+.header-title{
+    margin: 0px;
+    text-align: left;
+
+}
+.header-subtitle{
+    margin-top: 10px;
+    text-align: left;
+}
+.glavn{
+    text-align: center;
+    background-color:rgb(13, 2, 33);
+}
+.nav{
+    text-align: center;
+    margin: 10px;
+}
+
+.nav-link{
+    display: inline-block;
+    padding: 15px 15px;
+    margin-left: 60px;
+    text-decoration: none;
+    background-color:  rgb(55, 56, 100);
+    border-radius: 6px;
+    
+
+}
+
+.nav-link:hover{
+    background-color: rgb(246, 1, 157);
+    border-radius: 7px;
+    color: white;
+}
+
+.content{
+    padding: 30px;
+}
+.content-title{
+ font-size:  24px;
+ color: violet ;
+}
+
+.content-text{
+    margin-bottom: 10px;
+}
+
+.read-more{
+    text-decoration: none;
+    color: black;
+    background-color: azure;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.read-more:hover{
+    color: aliceblue;
+    background-color: palevioletred;
+    border-radius: 8px;
+    
+}
+.article{
+margin-top: 20px;
+}
+.footer{
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    padding:  100px;
+}
+
+.columns{
+    display: flex;
+    background-color: rgb(13, 2, 33);
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.columns_center {
+    width: 100%;
+    width: 1200px;
+    max-width: 1200px;
+    flex-wrap: wrap;
+}
+
+.column{
+    flex: 1;
+    max-width: 100%;
+    padding: 10px;
+    margin: 10px;
+   
+}
+
+.main-column{
+    flex: 1;
+    max-width: 100%;
+    padding: 10px;
+    margin: 10px;
+}
+
+h2{
+    background-color: rgb(101, 13 , 137);
+    margin: 0px;
+    padding: 20px;
+}
+
+.img2:hover{
+ text-align: center;
+ transform: scale(1.1);
+ box-shadow: 5px;
+}
+
+.img2{  
+  box-shadow: 10px 5px 5px purple;
+    border-radius: 15px;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+}
+
+.column3{
+    flex: 1;
+    max-width: 100%;
+    padding: 10px;
+    margin: 10px;
+}
+
+.column4{
+    flex: 1;
+    max-width: 100%;
+    padding: 10px;
+    margin: 10px;
+}
+
+.VidAnn{
+    flex: 1;
+    max-width: 100%;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.VidGal{
+    flex: 1;
+    max-width: 100%;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.VidHam{
+    flex: 1;
+    max-width: 100%;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.VidRas{
+    flex: 1;
+    max-width: 100%;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+
+}
+.video{
+    box-shadow: 10px 5px 5px purple;
+    border-radius: 15px;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+}
+
+.video:hover{
+    text-align: center;
+    transform: scale(1.1);
+    box-shadow: 5px;
+}
+
+form{
+font-size: 20px;
+border-radius: 20px;
+margin: 10px;
+}
+form textarea{
+    font-size: 20px;
+    border-radius: 20px;
+    margin: 10px;
+    margin-left: 0px;
+}
+#sub1{
+    padding: 10px;
+    font-size: 25px;
+    background-color: rgb(246, 1, 157);
+    color: aliceblue;
+    border-radius: 10px;
+}
+
+#text1{
+    background-color: black;
+}
+
+.cont{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows:  repeat(6, 100px)
+}
+
+.box1{
+   
+    grid-column-start: 1;
+   grid-column-end: 4;
+   grid-row-start: 1;
+   grid-row-end: 1;
+    background-color: lightgreen;
+
+}
+
+.box2{
+    grid-column-start: 1;
+    grid-column-end:   3;
+    grid-row-start: 2;
+    grid-row-end: 2;
+ 
+    background-color: lightblue;
+
+}
+.box3{
+    grid-column-start: 1;
+   grid-column-end: 2;
+   grid-row-start: 3;
+   grid-row-end: 3;
+
+    background-color: lightyellow;
+}
+
+.box4{
+    grid-column-start: 1;
+   grid-column-end: 3;
+   grid-row-start: 4;
+   grid-row-end: 4;
+
+    background-color: lightcoral;
+}
+.box5{
+    grid-column-start: 1;
+   grid-column-end: 4;
+   grid-row-start: 5;
+   grid-row-end: 5;
+
+    background-color: lightgray;
+
+}
+
+.box6{
+    grid-column-start: 1;
+   grid-column-end: 3;
+   grid-row-start: 6;
+   grid-row-end: 6;
+
+    background-color    : lightgoldenrodyellow;
+}
+
